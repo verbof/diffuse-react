@@ -1,5 +1,8 @@
 function [x, flg, resNew, its] = stencil_pcg(f, b, tol, maxit)
 % STENCIL_PCG computes CG with 1st order approximation for f
+%
+% Fabio VERBOSIO, Universita` della Svizzera italiana, November 2018
+%
 
     its = 0;
     flg = 1;

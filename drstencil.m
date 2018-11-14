@@ -1,6 +1,8 @@
 function S = drstencil(X, Xold, nx, ny, alpha, dxs)
 % DRSTENCIL computes the stencil for a grid including BCs
-
+%
+% Fabio VERBOSIO, Universita` della Svizzera italiana, November 2018
+%
     X    = reshape(X,nx,ny);
     Xold = reshape(Xold,nx,ny);
     S    = zeros(size(X));

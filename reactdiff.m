@@ -1,5 +1,8 @@
 % REACTDIFF script for testing stencil-based CG for Diffusion/Reaction problems.
 % 
+%
+% Fabio VERBOSIO, Universita` della Svizzera italiana, November 2018
+%
 
 %% SET PARAMS
 

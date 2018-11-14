@@ -1,5 +1,8 @@
 function S = diffreactstencil(U, x_old, nx, ny, bnd, alpha, dxs)
 % DIFFREACTSTENCIL computes stencil as inner + bounds + corners
+%
+% Fabio VERBOSIO, Universita` della Svizzera italiana, November 2018
+%
 
 bndN = bnd.bndN;
 bndS = bnd.bndS;
